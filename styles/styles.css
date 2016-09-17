@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+#sideBar{
+    float: left;
+    padding-left: 10px;
+    width: 300px;
+    height: auto;
+}
+#container {
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+
+}
+.square {
+    background-color: #e6ffff;
+    display: inline-block;
+    float: left;
+}
