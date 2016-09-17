@@ -1,6 +1,6 @@
 //when html loads
 var rowNumber = 16;
-var sideSize = 600 / rowNumber;
+var sideSize = 700 / rowNumber;
 var elementNumber = " ";
 for (var i = 0; i < rowNumber * rowNumber; i++){
     elementNumber += "<div class = 'square'></div>";
@@ -15,7 +15,7 @@ $(document).ready(function() {
 //when new grid button is clicked
 function makeGrid(){
     var rowNumber = prompt("How many rows on the grid?");
-    var sideSize = 600 / rowNumber;
+    var sideSize = 700 / rowNumber;
     var elementNumber = " ";
     for (var i = 0; i < rowNumber * rowNumber; i++){
     elementNumber += "<div class = 'square'></div>";
@@ -32,7 +32,7 @@ function makeGrid(){
 //when random grid button is clicked
 function makeRandomGrid(){
     var rowNumber = prompt("How many rows on the grid?");
-    var sideSize = 600 / rowNumber;
+    var sideSize = 700 / rowNumber;
     var elementNumber = " ";
     for (var i = 0; i < rowNumber * rowNumber; i++){
     elementNumber += "<div class = 'square'></div>";
