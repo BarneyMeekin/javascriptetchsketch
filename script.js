@@ -9,7 +9,7 @@ $(document).ready(function() {
     $('body').find("#container").append(elementNumber);
     $('.square').css({"height": sideSize + 'px', "width": sideSize + 'px'});
     $(document).on('mouseenter', '.square', function() {
-        $(this).css("background-color", "blue");
+        $(this).css("background-color", "#255E69");
     });
 });
 //when new grid button is clicked
@@ -25,7 +25,7 @@ function makeGrid(){
         $('body').find("#container").append(elementNumber);
         $('.square').css({"height": sideSize + 'px', "width": sideSize + 'px'});
         $(document).on('mouseenter', '.square', function() {
-            $(this).css("background-color", "blue");
+            $(this).css("background-color", "#255E69");
         });
     });
 }
