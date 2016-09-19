@@ -1,15 +1,11 @@
 body {
     font-family: Arial, sans-serif;
     font-weight: bold;
-<<<<<<< HEAD
     background-color: #759D34;
-=======
->>>>>>> 9712cfae4496b8bc95f588b7eee3fafe04d09d53
 }
 #sideBar{
     float: left;
     padding-left: 10px;
-<<<<<<< HEAD
 }
 h1 {
     color: #255E69;
@@ -37,22 +33,9 @@ button {
     margin: 20px auto;
     cursor:
 }
+
 .square {
     background-color: #AA4439;
-=======
-    width: 300px;
-    height: auto;
-}
-#container {
-    height: 600px;
-    width: 600px;
-    border: 1px solid black;
-    margin: auto;
-
-}
-.square {
-    background-color: #e6ffff;
->>>>>>> 9712cfae4496b8bc95f588b7eee3fafe04d09d53
     display: inline-block;
     float: left;
 }
